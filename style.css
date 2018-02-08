@@ -5,6 +5,8 @@ body {
 
 p {
   padding-top: 20px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 h1 {
@@ -19,7 +21,7 @@ b {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0px;
+  padding: 200px;
   padding-top: 50px;
 }
 
@@ -32,4 +34,8 @@ li {
 .active {
   background-color: orange;
   color: crimson;
+}
+
+img {
+  height: 60%;
 }
