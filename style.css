@@ -1,12 +1,35 @@
 body {
   background-color: lavender;
-  padding: 30px;
+  padding: 40px;
+}
+
+p {
+  padding-top: 20px;
 }
 
 h1 {
   color: black;
+  font-family: arial;
 }
 
 b {
   font-size: 110%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  padding-top: 50px;
+}
+
+li {
+  text-align: center;
+  align-items:flex-end;
+  display: inline;
+}
+
+.active {
+  background-color: orange;
+  color: crimson;
 }
